@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>تطور الذكاء الاصطناعي في العالم العربي</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+      background-image: url('https://images.unsplash.com/photo-1633821051688-fc558b716185?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw4NDE5MDR8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+      overflow: hidden;
+
+    }
+
+    .navbar {
+      background-color: #f1f1f1;
+    }
+
+    .navbar ul {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      justify-content: flex-start;
+      padding: 0;
+    }
+
+    .navbar li {
+      margin-bottom: 1rem;
+    }
+
+    .navbar li a {
+      color: #333;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar li a:hover {
+      background-color: #f1f1f1;
+    }
+
+    #content {
+      text-align: center;
+      margin: 4rem auto;
+      max-width: 600px;
+      padding: 0 2rem;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+
+    #botpress-webchat {
+      width: 400px;
+      height: 600px;
+      border-radius: 8px;
+      margin-top: 1.5rem;
+    }
+    
+    
+  </style>
+  <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var chatContainer = document.createElement('div');
+      chatContainer.id = 'botpress-webchat';
+      document.body.appendChild(chatContainer);
+
+      window.botpressWebChat.init({
+        hostUrl: 'https://cdn.botpress.cloud/webchat/v0',
+        botId: '20968334-f6fd-424a-88f7-d0ffdcff0dd9',
+        clientId: '20968334-f6fd-424a-88f7-d0ffdcff0dd9',
+        botName: 'أوزوريس',
+        avatarUrl: 'https://pngtree.com/freepng/cartoon-robot-vector-cyborg_8411979.html',
+        botConversationDescription: 'محادثة ذكاء اصطناعي باللغة العربية',
+        hideWidget: true
+      });
+
+      window.botpressWebChat.onReady(function() {
+        window.botpressWebChat.open();
+      });
+    });
+  </script>
+</head>
+<body>
+    
+    <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "botId": "20968334-f6fd-424a-88f7-d0ffdcff0dd9",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "20968334-f6fd-424a-88f7-d0ffdcff0dd9",
+      "botName": "أوزوريس",
+      "avatarUrl": "https://cdn.dribbble.com/userupload/6182009/file/original-431fe9979b0e71015496c854a091fb13.jpg?compress=1&resize=400x300&vertical=top",
+      "botConversationDescription": "Arabic Gbt/AI communicater",
+      "useSessionStorage": true,
+      "enableConversationDeletion": true
+  });
+</script>
+  <header class="flex items-center justify-between bg-gray-900 text-white px-6 py-3">
+    <img src="https://cdn.dribbble.com/userupload/6182009/file/original-431fe9979b0e71015496c854a091fb13.jpg?compress=1&resize=400x300&vertical=top" width="100" height="70" class="rounded"><h1>ARABYGBT</h1>
+    <nav class="flex justify-center space-x-4">
+        <a href="partner.html" class="block py-2 px-4">شراكة معنا</a>
+        <a href="support.html" class="block py-2 px-4">الدعم</a>
+      </nav>
+  </header>
+
+  <div id="content">
+    <h1 class="text-4xl font-bold mb-10">تطور الذكاء الاصطناعي في العالم العربي</h1>
+    <p class="text-3xl mb-6">
+      يتطور الذكاء الاصطناعي بسرعة ويحقق تأثيرات هامة في مختلف الصناعات. العالم العربي ليس استثناءً لهذه الثورة.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/A_map_of_the_Arab_World_with_flags.png" width="1000" height="1000">
+
+  
+    <p class="text-3xl mb-10">
+      إذا كان لديك أي أسئلة أو استفسارات، يرجى الاتصال بنا عبر وسائل الاتصال المتاحة أدناه. نحن هنا لمساعدتك وتقديم الدعم المطلوب.
+    </p>
+    <div id="botpress-webchat"></div>
+  </div>
+</body>
+
+</html>

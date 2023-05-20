@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    background-image: url('https://images.unsplash.com/photo-1633821051688-fc558b716185?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw4NDE5MDR8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+  }
+
+  .navbar {
+    background-color: #f1f1f1;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  .navbar li {
+    margin-bottom: 1rem;
+  }
+
+  .navbar li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar li a:hover {
+    background-color: #f1f1f1;
+  }
+
+  #content {
+    text-align: center;
+    margin: 4rem auto;
+    max-width: 600px;
+    padding: 0 2rem;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+
+  .sup {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .sup h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .sup p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  .custom-orange-btn {
+    /* Button styles */
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .custom-orange-btn:hover {
+    /* Hover styles */
+    background-color: gray;
+    color: white;
+    font-size: 18px;
+  }
+  .sup a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .sup a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  

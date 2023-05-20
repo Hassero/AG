@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Support Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+      
+<style>
+      
+
+      .sup {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .sup h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+
+  .sup p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+
+  .sup a {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+
+    .navbar {
+      background-color: #f1f1f1;
+    }
+
+    .navbar ul {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      justify-content: flex-start;
+      padding: 0;
+    }
+
+    .navbar li {
+      margin-bottom: 1rem;
+    }
+
+    .navbar li a {
+      color: #333;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar li a:hover {
+      background-color: #f1f1f1;
+    }
+    
+
+</style>
+</head>
+<body>
+
+  <header class="flex items-center justify-between bg-gray-900 text-white px-6 py-3">
+    <img src="https://cdn.dribbble.com/userupload/6182009/file/original-431fe9979b0e71015496c854a091fb13.jpg?compress=1&resize=400x300&vertical=top" alt="Logo" width="100" height="70" class="rounded">
+    <h1>ARABYGBT</h1>
+    <nav class="flex justify-center space-x-4">
+        <a href="partner.html" class="block py-2 px-4">شراكة معنا</a>
+        <a href="support.html" class="block py-2 px-4">الدعم</a>
+      </nav>
+  </header>
+  <div class="sup">
+    <h1>صفحة الدعم</h1>
+    <p>إذا كنت بحاجة إلى مساعدة أو لديك أي أسئلة ، فلا تتردد في الاتصال بفريق الدعم الخاص بنا.</p>
+    <p>يمكنك الوصول إلينا عبر البريد الإلكتروني على <a href="arabygbt@gmail.com">arabygbt@gmail.com</a> أو عن طريق الهاتف على <a href="tel:+20011127233359">(+20) 01127233359</a>.</p>
+  </div>
+  <button class="custom-orange-btn text-white py-2 px-4 rounded" onclick="goBack()">العودة إلى الصفحة الرئيسية</button>
+
+  <script>
+    function goBack() {
+      window.location.href = "index.html";
+    }
+  </script>
+  
+  
+</body>
+</html>
